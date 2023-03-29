@@ -1,0 +1,17 @@
+Könyvtárban lépkedés: 
+- cd (Directory name) --> belép az adott könyvtárba
+- cd "betű" tab --> kiegészíti az írni valónkat 
+- cd.. --> Egy könyvtárt visszalépünk
+
+Listázás:
+- ls (list)--> listázza a mappánkat
+- lf -Force --> rejtett fájlok mutatása is
+
+Korábbi parancsok
+- felfelé nyíl --> visszahoz régebbi parancsokat
+
+Fájl létrehozása:
+- ni (New Item) --> ni filename.extension
+
+Új könyvtár:
+- mkdir (Make Directory) --> létrehozunk egy új könyvtárat
