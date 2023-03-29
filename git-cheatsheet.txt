@@ -1,1 +1,13 @@
+Lokális fontos parancsok---------------------------------------------------------
+git status --> megnézzük, hogy a mappánk/mappáink rendelkezik-e verziókövetéssel
 git init --> verzió követjük a mappánkat
+git add ./vagy fájl --> minden változtatást hozzárendel
+git commit -m "verzió kommentje" --> megadjuk a verziónak a kommentjét
+---------------------------------------------------------------------------------
+
+Github összeköttetés:
+git remote --> megvizsgálja, hogy van-e a GitHub-on repository-hoz kötve
+-------- Ha nincs, akkor létrehozunk egy új repot a GitHub-on------------
+git remote origin repo-url-je (repo kapcsolat elnevezése, általában origin-t szokás írni)
+git remote --> kiírja, hogy mi tartozik hozzá, melyik repo
+git push --> először error, de ki írja, hogy git push --set-upstream origin master
