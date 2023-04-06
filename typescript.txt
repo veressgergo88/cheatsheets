@@ -1,0 +1,20 @@
+Folyamat a Typescript kód létrehozása előtt:
+1. Könyvtár létrehozása, ahova szeretnénk a kódunkat.
+2. Telepítjük az npm package-t a mappánkba
+- npm init -->> addig nyomjuk az entert míg mindennel végzünk, majd y gomb
+3. Telepítjük a typescript-enter
+- npm i -D typescript
+4. Telepítjük az tsconfig.json fájlt
+- npx tsc --init
+5. Megnyitjük a VSCODE-ot a könyvtárból
+6. A package.json fájlban a scripts-be azt írjuk, hogy
+- "build": "tsc"
+7. A tsconfig.json fájlban az "outDir" ki kommenteljük és írjuk, hogy
+- "outDir": "./out"
+8. Verzió követjük a mappát ha szeretnénk.
+- git init
+9. Létrehozzuk a .gitignore fájlt
+10. A mappákat, fájlokat amiket nem szeretnénk verzió követni, valamint commit-olni, push-olni
+- a gitignore fájlba beírjuk jelen esetben a node_modules és új sorba az out szavakat
+11. Innentől kezdve jöhet a kódolás. Minden kód megírás, módosítás után ha leszeretnénk futtatni az algoritmust, akkor
+- terminálba írjuk be mindig, hogy-> npm run build
